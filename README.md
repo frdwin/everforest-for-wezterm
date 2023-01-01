@@ -7,25 +7,20 @@ Please checkout their Github pages for more information.
 
 ## Instalation
 
-### Using the install script
-
-1. Run the installation script:
+1. Clone the repo into wezterm config directory:
 ```
-$ git clone https://github.com/frdwin/Everforest-Wezterm && \
-cd Everforest-Wezterm && \
-./install.sh
+mkdir -p $HOME/.config/wezterm/ && \
+git clone https://github.com/frdwin/Everforest-Wezterm $HOME/.config/wezterm/colors
 ```
 
 2. Change your WezTerm config to apply the theme:
 ```
 return {
 	[... your configuration ...]
-	color_scheme_dirs = { "colors" },
+	color_scheme_dirs = { "/home/<span style="color: red"><your_username></span>/.config/wezterm/colors" },
 	color_scheme = "Everforest Dark (Medium)",
 }
 ```
-
-### Manually
 
 ### Options
 
