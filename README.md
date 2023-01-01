@@ -1,4 +1,5 @@
-# Everforest for Wez's Terminal
+# Everforest
+### for Wez's Terminal
 
 ## Introduction
 This is a port of the amazing [Everforest](https://github.com/sainnhe/everforest) theme to the also amazing [Wez's Terminal](https://github.com/wez/wezterm) emulator.
