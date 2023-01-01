@@ -13,11 +13,13 @@ Please checkout their Github pages for more information.
 `$ git clone https://github.com/frdwin/Everforest-Wezterm && cd Everforest-Wezterm && ./install.sh`
 
 2. Change your WezTerm config to apply the theme:
-```return {
-		_[... your configuration ...]_
-		color_scheme_dirs = { "colors" },
-		color_scheme = "Everforest Dark (Medium)",
-	}```
+```
+return {
+	[... your configuration ...]
+	color_scheme_dirs = { "colors" },
+	color_scheme = "Everforest Dark (Medium)",
+}
+```
 
 Possible values for the color_scheme variable are:
 
