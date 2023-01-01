@@ -5,12 +5,16 @@ This is a port of the amazing [Everforest](https://github.com/sainnhe/everforest
 
 Please checkout their Github pages for more information.
 
-## Instalation:
+## Instalation
 
-### Using the install script:
+### Using the install script
 
 1. Run the installation script:
-`$ git clone https://github.com/frdwin/Everforest-Wezterm && cd Everforest-Wezterm && ./install.sh`
+```
+$ git clone https://github.com/frdwin/Everforest-Wezterm && \
+cd Everforest-Wezterm && \
+./install.sh
+```
 
 2. Change your WezTerm config to apply the theme:
 ```
@@ -20,6 +24,10 @@ return {
 	color_scheme = "Everforest Dark (Medium)",
 }
 ```
+
+### Manually
+
+### Options
 
 Possible values for the color_scheme variable are:
 
