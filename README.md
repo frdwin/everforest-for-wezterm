@@ -17,7 +17,7 @@ git clone https://github.com/frdwin/Everforest-Wezterm $HOME/.config/wezterm/col
 ```
 return {
 	[... your configuration ...]
-	color_scheme_dirs = { "/home/<span style="color: red"><your_username></span>/.config/wezterm/colors" },
+	color_scheme_dirs = { "~/.config/wezterm/colors" },
 	color_scheme = "Everforest Dark (Medium)",
 }
 ```
